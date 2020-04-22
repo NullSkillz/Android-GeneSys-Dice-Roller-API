@@ -87,7 +87,7 @@ if (!sendChat) {
 /* Begin Sheet Character Sheet Auto Creator */
 var Charsheet = Charsheet || {};
 
-const IMAGE_LOCATION = "https://raw.githubusercontent.com/Roll20/roll20-api-scripts/master/Genesys-RPG-Roller/Dice/";
+const IMAGE_LOCATION = "https://raw.githubusercontent.com/NullSkillz/Android-GeneSys-Dice-Roller-API/master/Dice";
 on('chat:message', function (msg) {
     // Exit if not an api command
     if (msg.type != "api") {
